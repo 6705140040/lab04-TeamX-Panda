@@ -33,25 +33,6 @@ Output of `git shortlog -sn`:
 3. **What is the difference between committing and pushing?** A commit saves a snapshot in the local repository. A push uploads local commits to the remote repository for teammates to access.
 4. **How do fixtures reduce duplicated setup code in tests?** A fixture provides reusable setup to each test that requests it. This avoids repeating object creation and lets tests focus on the behavior being checked.
 
-## Git Command Reference
-
-| Command | Purpose |
-|---|---|
-| `git clone <url>` | Create a local copy of a repository |
-| `git config user.name "..."` | Set the name attached to your commits |
-| `git status` | View changes, staged files, and suggestions |
-| `git diff` | View uncommitted changes |
-| `git add <file>` | Stage a file for the next commit |
-| `git commit -m "..."` | Save a snapshot in your local repository |
-| `git push` | Upload commits to GitHub |
-| `git pull` | Download teammates' latest changes |
-| `git log --oneline --graph` | View commit history |
-| `git show HEAD` | Show the latest commit in detail |
-| `git restore <file>` | Discard uncommitted changes |
-| `git merge --abort` | Cancel an unfinished merge |
-| `git shortlog -sn` | Count commits by contributor |
-| `git remote -v` | Show connected repositories |
-
 ## GitHub Repository
 
 https://github.com/6705140040/lab04-TeamX-Panda
