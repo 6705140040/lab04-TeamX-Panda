@@ -4,11 +4,6 @@
 
 | Team Member | GitHub Username | Contribution |
 |---|---|---|
-<<<<<<< HEAD
-| Hein Zaw Lin | 6705140038 | test_deposit.py |
-| Aye Than Tin - A | 6705140074 | test_withdraw.py |
-| Aung Myo Hlaing | 6705140040 | test_teardown.py |
-=======
 | Hein Zaw Lin - Hubert | 6705140038 | Deposit tests in `test_deposit.py` |
 | Aye Than Tin - A | 6705140074-hash | Withdrawal tests in `test_withdraw.py` |
 | Aung Myo Hlaing - Olary | 6705140040 | Teardown tests in `test_teardown.py` |
@@ -84,4 +79,3 @@ Fixtures provide the setup code that tests need, so we do not have to write the 
 ## GitHub Repository
 
 https://github.com/6705140040/lab04-TeamX-Panda
->>>>>>> 04b5a4c0cbefd45cdcabd822e55e8cf4c9c1d0ab
