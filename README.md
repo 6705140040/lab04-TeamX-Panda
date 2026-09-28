@@ -21,10 +21,9 @@ Output of `git shortlog -sn`:
 ```text
 	15  6705140040
 	5  Chan Myae Thaw Tar
-	 5  Your Preferred Name
 	 4  Aye Than Tin
 	 3  6705140038
-	 1  Hein Thura Naung (Ivan)
+	 6  Hein Thura Naung (Ivan)
 ```
 
 ## Reflection Questions
