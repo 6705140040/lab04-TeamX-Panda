@@ -5,14 +5,33 @@
 | Team Member | GitHub Username | Contribution |
 |---|---|---|
 | Hein Zaw Lin | 6705140038 | Deposit tests in `test_deposit.py` |
-| Aye Than Tin | 6705140074 | Withdrawal tests in `test_withdraw.py` |
+| Aye Than Tin | 6705140074-hash | Withdrawal tests in `test_withdraw.py` |
 | Aung Myo Hlaing | 6705140040 | Teardown tests in `test_teardown.py` |
 | Chan Myae Thaw Tar | 6705140048 | Shared tests in `test_shared.py` |
 | Hein Thura Naung | IvannCoder | Shared `funded_account` fixture in `conftest.py` |
 
 ## Our Merge Conflict
 
-The conflict markers were `<<<<<<< HEAD`, `=======`, and `>>>>>>> <branch>`. During the merge, different team members edited the same contributor-table section in `README.md`. Git could not automatically choose how to combine those overlapping edits, so the team decided to keep every member's contribution in the completed five-row table.
+During Round 3, all group members edited the `README.md` at around the same time and added their own information to the same section. The first team member successfully pushed their changes, while the other members received merge conflicts because they had also changed the same part of the file.
+
+The conflict markers we encountered were:
+# Ivan `<<<<<<< HEAD
+
+> 2b316d7e8bfcdeb7d8572c63f63839353e25adc6
+> 1e8953e402c0c0b6eb1468792713a7036956b31a
+
+# Chan Myae Thaw Tar `<<<<<<< HEAD
+
+> 792f52eb6da477b9d48769b200f20c73a2380f8e
+> a52eab2ee7881a3976537cb39d13ff31c6594a9d
+
+# Aung Myo Hlaing (6705140040) `<<<<<<< HEAD
+
+> 534ee35dff5c954408b98eaba42fb23b252b6107
+> e82e67a6fc6fc2c8296f7707dd2b79e946b45754
+
+After resolving the conflict, we kept the information for all group members and added each member's name to the final `README.md`.
+
 
 ## Git Contribution Summary
 
