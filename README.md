@@ -19,11 +19,11 @@ The conflict markers were `<<<<<<< HEAD`, `=======`, and `>>>>>>> <branch>`. Dur
 Output of `git shortlog -sn`:
 
 ```text
-	13  6705140040
+	15  6705140040
+	5  Chan Myae Thaw Tar
+	 5  Your Preferred Name
 	 4  Aye Than Tin
 	 3  6705140038
-	 3  Chan Myae Thaw Tar
-	 3  Your Preferred Name
 	 1  Hein Thura Naung (Ivan)
 ```
 
