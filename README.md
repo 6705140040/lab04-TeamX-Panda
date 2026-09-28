@@ -41,7 +41,7 @@ After resolving the conflict, we kept the information for all group members and 
 | Hein Zaw Lin | 6705140038 | Deposit tests in `test_deposit.py` |
 | Aye Than Tin | 6705140074-hash | Withdrawal tests in `test_withdraw.py` |
 | Aung Myo Hlaing | 6705140040 | Teardown tests in `test_teardown.py` |
-| Chan Myae Thaw Tar | 6705140048 | Shared tests in `test_shared.py` |
+| Chan Myae Thaw Tar | 6705140048 | Shared 2 tests in `test_shared.py` |
 | Hein Thura Naung | IvannCoder | Shared `funded_account` fixture in `conftest.py` |
 
 Why Git Could Not Automatically Resolve the Conflict
