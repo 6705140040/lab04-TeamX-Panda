@@ -20,7 +20,7 @@ Output of `git shortlog -sn`:
 
 ```text
 	15  6705140040
-	5  Chan Myae Thaw Tar
+	 5  Chan Myae Thaw Tar
 	 4  Aye Than Tin
 	 3  6705140038
 	 6  Hein Thura Naung (Ivan)
