@@ -1,6 +1,6 @@
-# Group Name: TeamX-Panda
+# 1. Group Name: TeamX-Panda
 
-## Who Did What
+## 2. Who Did What
 
 | Team Member | GitHub Username | Contribution |
 |---|---|---|
@@ -10,7 +10,7 @@
 | Chan Myae Thaw Tar | 6705140048 | Shared tests in `test_shared.py` |
 | Hein Thura Naung | IvannCoder | Shared `funded_account` fixture in `conftest.py` |
 
-## Our Merge Conflict
+## 3. Our Merge Conflict
 
 During Round 3, all group members edited the `README.md` at around the same time and added their own information to the same section. The first team member successfully pushed their changes, while the other members received merge conflicts because they had also changed the same part of the file.
 
@@ -48,7 +48,7 @@ Why Git Could Not Automatically Resolve the Conflict
 
 Because multiple collaborators edited the exact same lines of README.md concurrently, Git could not safely determine which version to keep without risking data loss, requiring us to resolve it manually
 
-## Git Contribution Summary
+## 4. Git Contribution Summary
 
 Output of `git shortlog -sn`:
 
@@ -61,12 +61,19 @@ Output of `git shortlog -sn`:
 ```
 
 
-## Reflection Questions
+## 5. Reflection Questions
 
-1. **Why was your push rejected, and how did you fix it?** The remote branch contained teammates' commits that were missing locally, so Git rejected the push to prevent overwriting their work. I pulled their changes, resolved the README conflict by keeping all contributions, then committed and pushed the merge.
-2. **Why could Git not resolve the README conflict automatically?** Both branches edited overlapping content in the same contributor-table section. Git could not infer how the competing edits should be combined, so the team retained all five rows.
-3. **What is the difference between committing and pushing?** A commit saves a snapshot in the local repository. A push uploads local commits to the remote repository for teammates to access.
-4. **How do fixtures reduce duplicated setup code in tests?** A fixture provides reusable setup to each test that requests it. This avoids repeating object creation and lets tests focus on the behavior being checked.
+### 1. Why was your push rejected, and how did you fix it?
+My push was rejected because another team member had pushed new changes to GitHub. I used `git pull` to get the latest changes, merged them with my local work, and then pushed again.
+
+### 2. Why could Git not resolve the README conflict automatically?
+Git could not resolve the README conflict automatically because different team members changed the same part of the README. Git needed us to decide which changes to keep and combine.
+
+### 3. What is the difference between committing and pushing?
+Committing saves our changes in the local Git repository. Pushing sends those commits from the local repository to the shared GitHub repository.
+
+### 4. How do fixtures reduce duplicated setup code in tests?
+Fixtures provide the setup code that tests need, so we do not have to write the same setup repeatedly in every test. For example, the `funded_account` fixture creates a `BankAccount(1000)` that can be used by multiple tests.
 
 ## GitHub Repository
 
