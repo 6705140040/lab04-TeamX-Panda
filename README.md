@@ -35,6 +35,7 @@ The conflict markers we encountered were:
 
 After resolving the conflict, we kept the information for all group members and added each member's name to the final `README.md`.
 
+
 ### Final lines kept:
 | Team Member | GitHub Username | Contribution |
 |---|---|---|
