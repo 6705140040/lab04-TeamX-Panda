@@ -36,7 +36,6 @@ The conflict markers we encountered were:
 After resolving the conflict, we kept the information for all group members and added each member's name to the final `README.md`.
 
 ### Final lines kept:
-```text
 | Team Member | GitHub Username | Contribution |
 |---|---|---|
 | Hein Zaw Lin | 6705140038 | Deposit tests in `test_deposit.py` |
