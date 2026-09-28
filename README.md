@@ -1,4 +1,4 @@
-# Group Name: lab04-TeamX-panda
+# Group Name: TeamX-Panda
 
 ## Who Did What
 
