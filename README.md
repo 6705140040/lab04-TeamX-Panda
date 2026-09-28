@@ -8,5 +8,3 @@
 | Hein Thura Naung | IvannCoder | conftest.py |
 
 ## Our Merge Conflict
-
-
