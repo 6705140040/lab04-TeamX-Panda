@@ -44,6 +44,8 @@ After resolving the conflict, we kept the information for all group members and 
 | Chan Myae Thaw Tar | 6705140048 | Shared tests in `test_shared.py` |
 | Hein Thura Naung | IvannCoder | Shared `funded_account` fixture in `conftest.py` |
 
+Why Git Could Not Automatically Resolve the Conflict
+Because multiple collaborators edited the exact same lines of README.md concurrently, Git could not safely determine which version to keep without risking data loss, requiring us to resolve it manually
 
 ## Git Contribution Summary
 
@@ -56,6 +58,7 @@ Output of `git shortlog -sn`:
 	 3  6705140038
 	 6  Hein Thura Naung (Ivan)
 ```
+
 
 ## Reflection Questions
 
