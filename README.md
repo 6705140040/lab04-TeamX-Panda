@@ -8,3 +8,4 @@
 | Hein Thura Naung | IvannCoder | conftest.py |
 
 ## Our Merge Conflict
+During Round 3, all group members edited the `README.md` at around the same time and added their own information to the same section. The first team member successfully pushed their changes, while the other members received merge conflicts because they had also changed the same part of the file
