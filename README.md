@@ -54,11 +54,11 @@ Because multiple collaborators edited the exact same lines of README.md concurre
 Output of `git shortlog -sn`:
 
 ```text
-	15  6705140040
-	 5  Chan Myae Thaw Tar
-	 4  Aye Than Tin
-	 3  6705140038
-	 6  Hein Thura Naung (Ivan)
+	22  Aung Myo Hlaing
+    10  Hein Thura Naung
+     7  Aye Than Tin
+     7  Chan Myae Thaw Tar
+     6  6705140038
 ```
 
 
