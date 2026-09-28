@@ -2,5 +2,5 @@
 ## Who Did What
 | Member | GitHub Username | File |
 |---|---|---|
-| Your Name | your-username | test_deposit.py |
+| Hein Zaw Lin | 6705140038 | test_deposit.py |
 ```
